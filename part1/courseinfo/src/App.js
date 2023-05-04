@@ -18,11 +18,13 @@ const Total = (props) => (
   </p>
 );
 
-const Part = (props) => (
-  <p>
-    {props.part} {props.exercise}
-  </p>
-);
+const Part = (props) => {
+  return (
+    <p>
+      {props.part} {props.exercise}
+    </p>
+  );
+};
 
 const App = () => {
   const course = "Half Stack application development";

@@ -14,6 +14,7 @@ const Statictics = ({ array, anecdotes }) => {
       </div>
     );
   }
+
   const bestAnecdote = array.indexOf(maxNumber);
   return (
     <div>
